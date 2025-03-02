@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frostware</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Frostware Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/download">Download</a></li>
+                <li><a href="/discord">Discord</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <a href="/download" class="cta-btn">Download Now</a>
+            <h1>Welcome to Frostware</h1>
+            <p>The ultimate tool for your needs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Frostware. All rights reserved. <a href="/discord">Join our Discord</a></p>
+    </footer>
+</body>
+</html>
